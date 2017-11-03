@@ -5,12 +5,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 // Cambiar para espanol enlas fecha
 import { LOCALE_ID } from '@angular/core';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CapitalizadoPipe
+    CapitalizadoPipe,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule
